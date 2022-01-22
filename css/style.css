@@ -200,7 +200,8 @@ body {
   overflow: hidden;
 }
 .advantage {
-  margin-top: 94px;
+  margin-top: 0;
+  padding-top: 94px;
   padding-left: 215px;
   padding-right: 215px;
 }
@@ -237,9 +238,8 @@ body {
 
 /*ACTIVITY*/
 .spec {
-  margin-top: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
+  margin-top: 0;
+  padding: 94px 215px;
 }
 .spec-head {
   font-weight: 700;
@@ -268,7 +268,7 @@ body {
 /*OUR TEAM*/
 .team {
   background-color: var(--color-background-team);
-  margin: 94px 0 0 0;
+  margin: 0;
   padding: 94px 215px;
 }
 .team-list {
@@ -376,8 +376,8 @@ body {
 /*Page portfolio*/
 
 .main-portfolio {
-  margin: 94px -30px 0 0;
-  padding: 0 215px;
+  margin: 0 -30px 0 0;
+  padding: 94px 215px;
 }
 .btn-filter {
   border: none;
@@ -408,16 +408,15 @@ body {
 .filter-list {
   list-style-type: none;
   margin: 0;
-  padding: 0 200px;
+  padding: 0 200px 50px;
   display: flex;
   justify-content: center;
 }
 .services-list {
   list-style-type: none;
   margin-bottom: 0;
-  margin-top: 50px;
+  margin-top: 0;
   padding: 0;
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
