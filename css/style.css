@@ -40,13 +40,14 @@ h3 {
 
 body {
   width: 1600px;
+  margin: 0;
   font-family: roboto, sans-serif;
   background-color: var(--color-background-body);
 }
 .container {
-  width: 1170px;
-  margin: 0;
-  padding: 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px 0;
 }
 .header-container {
   display: flex;
